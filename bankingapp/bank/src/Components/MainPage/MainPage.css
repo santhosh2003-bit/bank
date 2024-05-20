@@ -1,0 +1,20 @@
+.Main-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2c2e3a;
+}
+.Container-welcome h1 {
+  color: white;
+  font-size: 40px;
+}
+.view-link-type {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+.view-link-type:hover {
+  color: greenyellow;
+  transition: all 0.3s ease-in-out;
+}

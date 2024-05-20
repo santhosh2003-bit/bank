@@ -1,0 +1,111 @@
+.Transfer_container {
+  background-color: #494d5f;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Transfer {
+  border: 1px solid gray;
+  width: 40%;
+  padding: 40px 10px;
+  border-radius: 25px;
+  background-color: #333;
+}
+
+.Transfer_container .Transfer h1 {
+  margin: auto;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Transfer_container .Transfer h3 {
+  margin: 0;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid gainsboro;
+  outline: none;
+  font-size: 18px;
+  color: gainsboro;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.formElement label {
+  color: gainsboro;
+  font-size: 18px;
+  text-align: start;
+  font-weight: bolder;
+}
+
+.custom-select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid gainsboro;
+  outline: none;
+  font-size: 18px;
+  color: rgb(9, 8, 11);
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .Transfer {
+    width: 60%;
+    padding: 20px 10px;
+  }
+
+  .Transfer_container .Transfer h1 {
+    font-size: 28px;
+  }
+
+  .Transfer_container .Transfer h3 {
+    font-size: 20px;
+  }
+
+  .formElement label,
+  .form-input,
+  .custom-select {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Transfer {
+    width: 90%;
+    padding: 15px 10px;
+  }
+
+  .Transfer_container .Transfer h1 {
+    font-size: 24px;
+  }
+
+  .Transfer_container .Transfer h3 {
+    font-size: 18px;
+  }
+
+  .formElement label,
+  .form-input,
+  .custom-select {
+    font-size: 14px;
+  }
+}
